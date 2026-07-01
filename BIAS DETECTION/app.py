@@ -313,7 +313,7 @@ with tab_overview:
                 color="count", color_continuous_scale="Blues", template=PLOTLY_TEMPLATE, text="count",
             )
             fig.update_layout(showlegend=False, coloraxis_showscale=False, yaxis_title="", xaxis_title="Applicants", height=380)
-            st.plotly_chart(fig, width='stretch'
+            st.plotly_chart(fig, width='stretch')
 
         col3, col4 = st.columns(2)
         with col3:
