@@ -1,3 +1,4 @@
+streamlit
 fairlearn
 numpy
 pandas
